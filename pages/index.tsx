@@ -151,7 +151,15 @@ export default function Page() {
               settings.setMode(10);
             }}
           >
-            🧹
+            <picture>
+              <img
+                src="images/svg/eraser.svg"
+                alt="erasericon"
+                width="18"
+                height="18"
+                draggable="false"
+              />
+            </picture>
           </button>
           {/* The button to open modal */}
           <label
@@ -169,7 +177,15 @@ export default function Page() {
             )}
             data-hover={t("text")}
           >
-            🇦
+            <picture>
+              <img
+                src="images/svg/text.svg"
+                alt="texticon"
+                width="21"
+                height="22"
+                draggable="false"
+              />
+            </picture>
           </label>
           {/* Put this part before </body> tag */}
           <div className={clsx("modal", { "modal-open": textModal })}>
@@ -243,7 +259,15 @@ export default function Page() {
               settings.setMode(4);
             }}
           >
-            ✏️
+            <picture>
+              <img
+                src="images/svg/pencil.svg"
+                alt="pencilicon"
+                width="18"
+                height="18"
+                draggable="false"
+              />
+            </picture>
           </button>
           <button
             type="button"
@@ -257,7 +281,15 @@ export default function Page() {
               settings.setMode(9);
             }}
           >
-            🖌️
+            <picture>
+              <img
+                src="images/svg/brush.svg"
+                alt="brushicon"
+                width="18"
+                height="18"
+                draggable="false"
+              />
+            </picture>
           </button>
         </div>
 
